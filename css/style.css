@@ -1,0 +1,10 @@
+body {
+  background-image: -webkit-linear-gradient(right, white, #ff4444);
+  background-image: linear-gradient(to left, white, #ff4444); }
+
+.header {
+  -webkit-transform: rotate(-21deg);
+  -moz-transform: rotate(-21deg);
+  -ms-transform: rotate(-21deg);
+  -o-transform: rotate(-21deg);
+  transform: rotate(-21deg); }
