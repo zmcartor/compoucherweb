@@ -11,20 +11,26 @@
 
     </head>
     <body>
+      <nav>
+      <ul>
+        <li> <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+        </li>
+        <li>
+        <h1 class="title"><a href="/about">About</a></h1>
+        </li>
+        <li>
+        <h1 class="title"><a href="/contact">Contact</a></h1>
+        </li>
+      </ul>
+      </nav>
 
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
-            </div>
+      <div class="content">
+      {{ content }}
+    </div>
 
-                {{ content }}
+      <footer>
+      <h1>This is a footer down here.</h1>
+      </footer>
 
-            <div class="footer">
-              This is the cool footer man
-              </div>
-            </div>
-          </div>
     </body>
 </html>
