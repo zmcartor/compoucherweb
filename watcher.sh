@@ -1,1 +1,2 @@
-sass --watch sassys:css && jekyll server --watch
+sass --watch sassys:css&
+jekyll server --watch&
