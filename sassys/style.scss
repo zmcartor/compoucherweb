@@ -1,6 +1,53 @@
 @import 'bourbon/bourbon';
 @import 'neat/neat';
 
+@import url(http://fonts.googleapis.com/css?family=Rosario:400,700);
+$red : rgb(176,0, 37);
+$yellow : rgb(255,210,7);
+$blue : rgb(2,27,85);
+
 body {
+  @include background-image(url("/images/debut_light.png"));
+    font-family: 'Rosario', sans-serif;
+}
+
+nav {
+  @include outer-container;
+  width: 100%;
+
+
+  div {
+    @include span-columns(4);
+  }
+}
+
+div.content {
+  @include outer-container;
   background-color: #efefef;
+}
+
+
+div#brag {
+  @include background(linear-gradient($yellow, #FBAE40));
+  @include span-columns(12);
+  @include omega;
+  height: 320px;
+
+  h1, h2 {
+    text-align: center;
+    font-size: 45pt;
+  }
+  h2 {
+    font-size: 30pt;
+  }
+}
+
+div.frontcopy {
+  @include span-columns(6);
+  padding: 20px;
+}
+
+footer {
+  @include outer-container;
+  background-color: $blue;
 }
