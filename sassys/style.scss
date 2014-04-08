@@ -6,6 +6,10 @@ $red : rgb(176,0, 37);
 $yellow : rgb(255,210,7);
 $blue : rgb(2,27,85);
 
+html, body {
+  height: 100%
+}
+
 body {
   @include background-image(url("/images/debut_light.png"));
     font-family: 'Rosario', sans-serif;
@@ -24,8 +28,9 @@ nav {
 div.content {
   @include outer-container;
   background-color: #efefef;
+  min-height: 100%;
+  margin: 0 auto -100px;
 }
-
 
 div#brag {
   @include background(linear-gradient($yellow, #FBAE40));
@@ -50,4 +55,5 @@ div.frontcopy {
 footer {
   @include outer-container;
   background-color: $blue;
+  height: 100px;
 }
