@@ -1,10 +1,9 @@
 @import 'bourbon/bourbon';
 @import 'neat/neat';
 
-@import url(http://fonts.googleapis.com/css?family=Rosario:400,700);
-$red : rgb(176,0, 37);
-$yellow : rgb(255,210,7);
-$blue : rgb(2,27,85);
+$body-color: #efefef;
+$orange: #e85100;
+$text-blue: #6DBCE6;
 
 html, body {
   height: 100%
@@ -12,13 +11,13 @@ html, body {
 
 body {
   @include background-image(url("/images/debut_light.png"));
-    font-family: 'Rosario', sans-serif;
+    font: 1em 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
 }
 
 nav {
   @include outer-container;
   width: 100%;
-
+  background-color: $body-color;
 
   div {
     @include span-columns(4);
@@ -27,33 +26,46 @@ nav {
 
 div.content {
   @include outer-container;
-  background-color: #efefef;
   min-height: 100%;
   margin: 0 auto -100px;
+  background-color: $body-color;
 }
 
 div#brag {
-  @include background(linear-gradient($yellow, #FBAE40));
+  color: #F2F4F6;
+  @include background(linear-gradient(#53aee0, #3da4dc));
+  text-shadow: 0px 2px 2px #1b6c98;
   @include span-columns(12);
   @include omega;
   height: 320px;
+  border-bottom:1px solid #5D9DBD;
 
   h1, h2 {
     text-align: center;
-    font-size: 45pt;
+    font-size: 4rem;
+    font-weight: 200;
   }
   h2 {
     font-size: 30pt;
+    font-weight:100;
   }
 }
 
 div.frontcopy {
+  font-size: 14pt;
   @include span-columns(6);
   padding: 20px;
+  text-shadow: 0 1px 0 #fff;
+  border-top: 1px solid #fff;
+
+  &:first-line {
+    color: green;
+  }
 }
 
 footer {
   @include outer-container;
-  background-color: $blue;
+  background-color: $body-color;
   height: 100px;
+  color: #2054e6;
 }
