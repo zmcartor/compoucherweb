@@ -12,6 +12,7 @@ html, body {
 body {
   @include background-image(url("/images/debut_light.png"));
     font: 1em 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    margin: 0;
 }
 
 nav {
@@ -22,6 +23,11 @@ nav {
   div {
     @include span-columns(4);
   }
+}
+
+span.orange {
+  color: $orange;
+
 }
 
 div.content {
@@ -57,6 +63,7 @@ div.frontcopy {
   padding: 20px;
   text-shadow: 0 1px 0 #fff;
   border-top: 1px solid #fff;
+  font-weight: 300;
 
   &:first-line {
     color: green;
