@@ -22,22 +22,24 @@ nav {
 
   div {
     @include span-columns(4);
+    @include transition (background-color .8s);
   }
-
+  div:hover {
+    background-color: yellow;
+  }
   a {
     text-decoration: none;
     color: black;
   }
 
   a h1 {
-    text-shadow: 0px 2px 2px #efe;
+    text-shadow: 0px 1px 0px #efe;
     font-weight: 200;
   }
 }
 
 span.orange {
   color: $orange;
-
 }
 
 div.content {
