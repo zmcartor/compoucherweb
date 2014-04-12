@@ -64,15 +64,18 @@ div.frontcopy {
   text-shadow: 0 1px 0 #fff;
   border-top: 1px solid #fff;
   font-weight: 300;
-
-  &:first-line {
-    color: green;
-  }
-}
+ }
 
 footer {
   @include outer-container;
   background-color: $body-color;
   height: 100px;
-  color: #2054e6;
+  position: relative;
+  div {
+   position: absolute;
+   color: #ccc9c9;
+   text-shadow: 0 1px 0 #ECE5E5;
+   bottom: 0px;
+   left: 10px;
+}
 }
