@@ -75,8 +75,33 @@ div.frontcopy {
   padding: 20px;
   text-shadow: 0 1px 0 #fff;
   border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
   font-weight: 300;
  }
+
+ div.last {
+   @include omega();
+ }
+
+ div.stripe {
+   border-top:1px solid #5D9DBD;
+   border-bottom:1px solid #5D9DBD;
+   position:relative;
+   height: 20px;
+   @include background(url("/images/ice.png"));
+   @include span-columns(12);
+ }
+
+ div.stripe:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(83,174,224,0.685);
+}
 
 footer {
   @include outer-container;
