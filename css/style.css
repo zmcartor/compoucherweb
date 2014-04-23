@@ -41,7 +41,8 @@ nav {
     color: black; }
   nav a h1 {
     text-shadow: 0px 1px 0px #efe;
-    font-weight: 200; }
+    font-weight: 200;
+    text-align: center; }
 
 span.orange {
   color: #e85100; }
@@ -52,7 +53,7 @@ div.content {
   margin-left: auto;
   margin-right: auto;
   min-height: 100%;
-  margin: 0 auto -100px;
+  margin: 0 auto -30px;
   background-color: #efefef; }
   div.content:before, div.content:after {
     content: " ";
@@ -132,7 +133,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   background-color: #efefef;
-  height: 100px;
+  height: 30px;
   position: relative; }
   footer:before, footer:after {
     content: " ";
