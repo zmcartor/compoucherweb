@@ -81,6 +81,9 @@ div#brag {
   div#brag h2 {
     font-size: 30pt;
     font-weight: 100; }
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    div#brag h1, div#brag h2 {
+      font-size: 2rem; } }
 
 div.frontcopy {
   font-size: 14pt;
