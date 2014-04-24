@@ -100,6 +100,11 @@ div.frontcopy {
   div.frontcopy:last-child {
     margin-right: 0; }
 
+h3 {
+  text-align: center;
+  font-size: 20pt;
+  font-weight: 100; }
+
 div.last {
   margin-right: 0; }
 
@@ -126,6 +131,15 @@ div.stripe:before {
   left: 0;
   right: 0;
   background: rgba(83, 174, 224, 0.685); }
+
+div#contactus {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  padding: 10px; }
+  div#contactus:last-child {
+    margin-right: 0; }
 
 footer {
   *zoom: 1;
