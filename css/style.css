@@ -112,7 +112,7 @@ div.stripe {
   border-top: 1px solid #5D9DBD;
   border-bottom: 1px solid #5D9DBD;
   position: relative;
-  height: 20px;
+  height: 10px;
   background: url("/images/ice.png");
   background: url("/images/ice.png");
   float: left;
@@ -133,11 +133,16 @@ div.stripe:before {
   background: rgba(83, 174, 224, 0.685); }
 
 div#contactus {
+  font-size: 14pt;
+  font-weight: 300;
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 100%;
-  padding: 10px; }
+  width: 48.82117%;
+  margin-left: 25.58941%;
+  padding: 10px;
+  text-shadow: 0 1px 0 #fff;
+  margin-bottom: 30px; }
   div#contactus:last-child {
     margin-right: 0; }
 

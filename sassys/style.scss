@@ -99,7 +99,7 @@ div.frontcopy {
    border-top:1px solid #5D9DBD;
    border-bottom:1px solid #5D9DBD;
    position:relative;
-   height: 20px;
+   height: 10px;
    @include background(url("/images/ice.png"));
    @include span-columns(12);
  }
@@ -116,8 +116,13 @@ div.frontcopy {
 }
 
 div#contactus {
-  @include span-columns(12);
+  font-size: 14pt;
+  font-weight: 300;
+  @include span-columns(6);
+  @include shift(3);
   padding: 10px;
+  text-shadow: 0 1px 0 #fff;
+  margin-bottom: 30px;
 }
 
 
