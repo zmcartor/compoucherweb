@@ -4,7 +4,7 @@ title : blah
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>{{ site.env}}</title>
+  <title>{{ page.title }}</title>
 <meta name="description" content="Compoucher, Zach McArtor digital products">
   <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -19,6 +19,7 @@ title : blah
     {% include nav.html %}
 
   </header>
+  {{ site.env }}
  {{ content }}
  <footer class="pv4 ph3 ph5-m ph6-l mid-gray cb">
   <small class="f6 db tc">© All the years <b class="ttu">Compoucher LLC</b></small>
