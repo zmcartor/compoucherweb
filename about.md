@@ -16,9 +16,14 @@ title : About
 <body class="w-100 sans-serif bg-white">
   
   <header class="cf ph3 ph5-ns pv5 fn fl-ns w-50-ns pr4-ns">
+ 
+  <nav class="bt bb tc mw7 center mt0">
+    <a class="f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l" href="/">Home</a>
+    <a class="f6 f5-l link bg-animate black-80 hover-bg-light-green dib pa3
+      ph4-l" href="/posts">Microblog</a>
+       <a class="f6 f5-l link bg-animate black-80 hover-bg-light-pink dib pa3 ph4-l" href="/about">About</a>
+     </nav>
 
-    {% include nav.html %}
-   
     <h1 class="f2 lh-title fw9 mb3 mt0 pt3 bw2">
       Zach McArtor
     </h1>
