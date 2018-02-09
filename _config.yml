@@ -1,7 +1,0 @@
-name: Compoucher
-markdown: redcarpet
-pygments: true
-
-exclude:
-  - sasswatch.sh
-  - sassys
