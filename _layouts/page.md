@@ -4,7 +4,7 @@ title : blah
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>{{ page.title }}</title>
+  <title>{{ site.env}}</title>
 <meta name="description" content="Compoucher, Zach McArtor digital products">
   <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
