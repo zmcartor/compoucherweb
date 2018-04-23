@@ -1,5 +1,5 @@
 ---
-title : Compoucher - Zach McArtor
+title : 
 ---
 <html lang="en">
 <head>
