@@ -1,5 +1,6 @@
 ---
 title : 
+layout :
 ---
 <html lang="en">
 <head>
