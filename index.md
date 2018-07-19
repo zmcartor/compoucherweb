@@ -46,7 +46,7 @@ layout :
     <p class="f5 lh-copy measure mt0-ns">
     PURPOSE is the difference between an accident, and progress.
     At Compoucher, all our happy accidents are on purpose. We
-    strive to create authtentic, delightful moments in our products and for
+    strive to create authentic, delightful moments in our products and for
     our clients. Our only success metric is experiences that further real relationships, 
     and enhance the future.
     </p>
