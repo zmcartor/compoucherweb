@@ -25,7 +25,7 @@ title : blah
     </script>
     <!-- End Google Analytics -->
 
-
+{% include css-fonts.css %}
 </head>
 <body class="w-100 sans-serif bg-white">
   <header class="cf ph3 ph5-ns pv3 w-50-ns pr4-ns">

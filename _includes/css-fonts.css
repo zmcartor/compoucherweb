@@ -1,0 +1,16 @@
+<style>
+    * {
+          font-family: 'Open Sans', sans-serif;
+        }
+        
+    .nunito {
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    .inline-title {
+        font-weight: bold;
+        font-family: 'Nunito', sans-serif;
+        display: inline-block;
+    }
+
+</style>

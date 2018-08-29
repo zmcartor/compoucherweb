@@ -26,6 +26,7 @@ layout :
     </script>
     <!-- End Google Analytics -->
 
+{% include css-fonts.css %}
 
 </head>
 <body class="w-100 sans-serif bg-white">
