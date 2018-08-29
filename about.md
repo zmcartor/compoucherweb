@@ -42,13 +42,13 @@ layout :
     <img src="http://tachyons.io/img/space.jpg" class="w-100 f5 measure mt3" alt="Photo of outer space">
   </header>
 
-  <article class="fn fl-ns w-50-ns cf ph3 ph4-ns pv5-ns pv3 measure">
-  <h2 class="mt0"> Info </h2>
+  <article class="lh-copy fn fl-ns w-50-ns cf ph3 ph4-ns pv5-ns pv3 measure">
+  <h2 class="mt0"> Specifics </h2>
     <p class="f5 lh-copy mt0-ns">
 <ul class = "list pl0">
-  <li>Organizer of the <a class="f5 fw6 black link hover-red" href="http://www.meetup.com/Boulder-iOS/">Boulder iOS Meetup.</a></li>
-  <li>Currently Cocoa Engineer at <a class="f5 fw6 black link hover-red" href="http://martiancraft.com">MartianCraft.</a></li>
-  <li>Previously CTO of <a class="f5 fw6 black link hover-red" href="http://www.taivara.com" title="Taivara">Taivara.</a></li>
+  <li class = "pb3">Organizer of the <a class="f5 fw6 black link hover-red" href="http://www.meetup.com/Boulder-iOS/">Boulder iOS Meetup.</a></li>
+  <li class = "pb3">Senior iOS Engineer at <a class="f5 fw6 black link hover-red" href="http://martiancraft.com">MartianCraft.</a></li>
+  <li class = "pb3">Previously CTO of <a class="f5 fw6 black link hover-red" href="http://www.taivara.com" title="Taivara">Taivara.</a></li>
 </ul>
 
 <p>Twitter: <a class="fw6 black link hover-red" href="http://twitter.com/#!/zmcartor" title="Twitter">@zmcartor</a></p>
@@ -57,7 +57,7 @@ layout :
     </p>
 
     <p class="f5 lh-copy mt0-ns">
-    <h3>What I’m Looking For</h3>
+    <h3>Let's Build Together</h3>
 I’m seeking the company of motivated developers and creative individuals. I
 think source code is written for humans to read, machine execution is
 incidental. I hold myself accountable and my work to a high standard. Always
